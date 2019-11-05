@@ -230,7 +230,7 @@ def player_with_longest_name
     team_info[:players].each do |player_name, player_info|
       if player_name.size>longest
         player_name=name
-        player_name.sizeh=longest
+        player_name.size=longest
 
       end
     end
